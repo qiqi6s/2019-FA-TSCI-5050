@@ -10,8 +10,11 @@
 #' called `config.R` in order to be used as a source of configuration 
 #' information by our scripts
 #' 
-inputdata <- 'data/example_data_pbc.csv';
-#' 
+#' inputdata <- 'data/example_data_pbc.csv';
+
+inputdata <- 'data/EpithelioidHemangioendothelioma.csv'
+
+
 #' Do you know what character is used to delimit your files? Usually it's either
 #' comma or tab, but it could be anything. If you're not sure, leave this 
 #' commented out, and the scripts will try to guess it for you.
